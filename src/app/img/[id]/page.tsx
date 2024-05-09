@@ -9,7 +9,7 @@ export default async function PhotoPage({
   if (Number.isNaN(idAsNumber)) throw new Error("Invalid Image ID!");
 
   return (
-    <div className="">
+    <div className="  ">
       <FullPageImageView id={idAsNumber} />
     </div>
   );
