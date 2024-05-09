@@ -30,7 +30,7 @@ async function Images() {
 
 export default async function HomePage() {
   return (
-    <main>
+    <div className="px-12">
       <SignedOut>
         <div className="h-full w-full text-center text-2xl">
           Please Sign In Above
@@ -39,6 +39,6 @@ export default async function HomePage() {
       <SignedIn>
         <Images />
       </SignedIn>
-    </main>
+    </div>
   );
 }
