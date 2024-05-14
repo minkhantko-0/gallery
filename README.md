@@ -1,29 +1,34 @@
-# Create T3 App
+# Gallery App
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+Your Own Personal Gallery on the Web.
 
-## What's next? How do I make an app with this?
+## Functionalities and Tech Stacks
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+- Built utilizing **Next.js 14** and it's **App Router**
+- Styled using **ShadCn UI**
+- User Authentication with **Clerk Client**
+- Image Upload with **Uploadthing**
+- Errors tracking with **Sentry**
+- **Posthog** Analytics
+- Rate-limited using **Upstash** and **Redis**
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+## Features
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+- Google and Github SignIn
+- Upload images
+- Browse your uploaded images
+- Delete unwanted images
 
-## Learn More
+## Potential Improvements for Future Releases
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+- Redesign Image List UI
+- Select Multiple Images and Perform an operation
+- Creating Folders/Albums
+- Share with others
+- Pagination with infinite scrolling
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+## Contributions
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+Contributions are welcome! If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
-## How do I deploy this?
-
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+Check out the Gallery App [here](https://gallery-nu-sage.vercel.app/).
