@@ -13,12 +13,12 @@ export default async function FullPageImageView(props: { id: number }) {
         <img
           src={image.url}
           alt={image.name}
-          className="max-h-[75%] w-[80%] flex-shrink object-contain"
+          className=" w-[80%] flex-shrink object-contain"
         />
       </div>
 
-      <div className="flex w-48 flex-shrink-0 flex-col border-l">
-        <div className="p-2 text-xl font-bold">{image.name}</div>
+      <div className="flex flex-grow flex-col border-l">
+        <div className="border-b p-2 text-xl font-bold">{image.name}</div>
 
         <div className="flex flex-col p-2">
           <span>Uploaded By:</span>
@@ -38,7 +38,7 @@ export default async function FullPageImageView(props: { id: number }) {
               await deleteImage(props.id);
             }}
           >
-            <Button type="submit" variant="destructive">  
+            <Button type="submit" variant="destructive">
               Delete
             </Button>
           </form>
