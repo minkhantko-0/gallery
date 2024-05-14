@@ -10,11 +10,11 @@ Your Own Personal Gallery on the Web.
 - Image Upload with **Uploadthing**
 - Errors tracking with **Sentry**
 - **Posthog** Analytics
-- Rate-limited using **Upstash** and **Redis**
+- Rate-limiting with **Upstash** and **Redis**
 
 ## Features
 
-- Google and Github SignIn
+- Google and GitHub SignIn
 - Upload images
 - Browse your uploaded images
 - Delete unwanted images
